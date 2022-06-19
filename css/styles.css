@@ -618,6 +618,7 @@ a.address {
     flex-direction: column;  
 }
 
+.newsletter-flex-tittle,
 .footer-social-links-tittle {
     font-style: normal;
     font-size: 14px;
@@ -739,7 +740,7 @@ a.address {
     visibility: hidden;
     pointer-events: none;
 }
-.close-btn {
+.modal-close-btn {
     /* close */
     width: 30px;
     height: 30px;
