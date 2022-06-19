@@ -854,13 +854,13 @@ label textarea {
     align-items: center;
     margin: 30px auto 40px;
 }
-.agrees-text {
+.agrement-text {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
 }
-.agrees-text::before {
+.agrement-text::before {
     content: "";
     display: inline-block;
     width: 16px;
@@ -871,7 +871,7 @@ label textarea {
     margin-right: 5px;
     
 }
-.checkbox-input:checked + .agrees-text::before {
+.checkbox-input:checked + .agrement-text::before {
     background-color: var(--logo-color);
     background-image: url(../images/input.svg);
     background-repeat: no-repeat;
